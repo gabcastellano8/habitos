@@ -61,7 +61,7 @@ Autenticação: JWT (JSON Web Tokens)
 📐 Fluxo de Dados (Request Lifecycle)
 Todas as requisições seguem um fluxo unidirecional previsível:
 
-Snippet de código
+## Snippet de código
 
 graph LR
     A[Cliente / Frontend] -->|JSON| B(Rota / Routes)
