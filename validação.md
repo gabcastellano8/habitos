@@ -28,7 +28,7 @@ Utilizamos uma estratégia focada em testes unitários para funções utilitári
 
 Para rodar a suíte de testes automatizados:
 
-```bash
+bash
 # Executa todos os testes
 npm run test
 
