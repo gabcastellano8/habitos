@@ -135,4 +135,3 @@ LALLY, Phillippa; VAN JAARSVELD, C. H. M.; POTTS, H. W. W.; WARDLE, J. How are h
 
 REACT JS. Documentação oficial. Disponível em: https://react.dev.
 
-MDN WEB DOCS. Date.prototype.toLocaleDateString(). Disponível em: https://developer.mozilla.org.
