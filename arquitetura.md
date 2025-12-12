@@ -74,32 +74,7 @@ graph LR
     F -->|Entidade| E
     E -->|Objeto| D
     D -->|JSON Response| A
-📂 Estrutura de Pastas
-A organização do projeto reflete a separação de responsabilidades:
-
-# bash
-
-src/
-├── @types/          # Definições de tipos customizados (ex: req.usuario)
-├── controller/      # Lida com Req/Res e status HTTP
-│   ├── ChallengeController.ts
-│   ├── EstatisticaController.ts
-│   ├── HabitoController.ts
-│   └── ...
-├── entity/          # Modelos do Banco de Dados (TypeORM)
-│   ├── Challenge.ts
-│   ├── Habito.ts
-│   ├── RegistroHabito.ts
-│   └── Usuario.ts
-├── middleware/      # Interceptadores (ex: Autenticação JWT)
-├── routes/          # Definição dos endpoints da API
-├── service/         # Regras de Negócio e acesso ao Banco
-│   ├── ChallengeService.ts
-│   └── ...
-├── app.ts           # Configuração do Express
-├── data-source.ts   # Configuração da conexão com o Banco
-└── server.ts        # Entry point
-🗄️ Modelagem de Dados (ERD Simplificado)
+ 
 O banco de dados foi modelado para suportar hábitos recorrentes e gamificação:
 
 Usuario: Entidade central. Armazena credenciais e dados de perfil.
