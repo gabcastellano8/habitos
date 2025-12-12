@@ -61,19 +61,7 @@ Autenticação: JWT (JSON Web Tokens)
 📐 Fluxo de Dados (Request Lifecycle)
 Todas as requisições seguem um fluxo unidirecional previsível:
 
-## Snippet de código
-
-graph LR
-    A[Cliente / Frontend] -->|JSON| B(Rota / Routes)
-    B -->|Validação Token| C{Middleware}
-    C -->|Request| D[Controller]
-    D -->|Dados| E[Service]
-    E -->|Lógica de Negócio| F[TypeORM Repository]
-    F -->|SQL| G[(PostgreSQL)]
-    G -->|Dados| F
-    F -->|Entidade| E
-    E -->|Objeto| D
-    D -->|JSON Response| A
+ 
  
 O banco de dados foi modelado para suportar hábitos recorrentes e gamificação:
 
