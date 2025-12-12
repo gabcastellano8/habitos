@@ -25,7 +25,7 @@ Relatórios: Gráficos de barras que fornecem feedback visual imediato sobre a c
 3. Diferenciais Chave (Engajamento)
 O valor do HabitSPA está nos recursos que transformam a experiência em algo ativo:
 
-🍅 Modo Foco Dedicado: Uma página exclusiva (/foco) com um Timer (Pomodoro) configurável. Ao final do tempo, o hábito é concluído automaticamente pelo sistema, reforçando a disciplina e eliminando o check-in manual.
+Modo Foco Dedicado: Uma página exclusiva (/foco) com um Timer (Pomodoro) configurável. Ao final do tempo, o hábito é concluído automaticamente pelo sistema, reforçando a disciplina e eliminando o check-in manual.
 
 4. Visão de Futuro (Potencial)
 A arquitetura é escalável para integrar funcionalidades avançadas, como:
