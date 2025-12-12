@@ -77,7 +77,7 @@ graph LR
 📂 Estrutura de Pastas
 A organização do projeto reflete a separação de responsabilidades:
 
-Bash
+# bash
 
 src/
 ├── @types/          # Definições de tipos customizados (ex: req.usuario)
