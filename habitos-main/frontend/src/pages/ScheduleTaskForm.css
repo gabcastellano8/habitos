@@ -1,0 +1,100 @@
+/* src/pages/ScheduleTaskForm.css */
+
+.schedule-task-form-container {
+  background-color: #fdfdfd;
+  padding: 1.5rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  /* margin-top: 2rem; */ /* REMOVIDO: O Dashboard.css agora controla isso */
+}
+
+.schedule-task-form-container h4 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.schedule-task-form-container .form-group {
+  margin-bottom: 1rem;
+}
+
+.schedule-task-form-container .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.schedule-task-form-container .form-group input {
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.schedule-task-form-container .form-group input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+}
+
+.schedule-task-form-container .form-error,
+.schedule-task-form-container .form-success {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.schedule-task-form-container .form-error {
+  color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.05);
+  border: 1px solid rgba(220, 53, 69, 0.2);
+}
+
+.schedule-task-form-container .form-success {
+  color: #218838;
+  background-color: rgba(40, 167, 69, 0.05);
+  border: 1px solid rgba(40, 167, 69, 0.2);
+}
+
+.schedule-task-form-container .create-button {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.schedule-task-form-container .create-button:hover {
+  background-color: #218838;
+}
+
+/* --- Estilos do Calendário (para o formulário) --- */
+.schedule-task-form-container .habito-calendar {
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Dia selecionado (do clique manual) */
+.schedule-task-form-container .habito-calendar .dia-selecionado {
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+}
+.schedule-task-form-container .habito-calendar .dia-selecionado:hover {
+  background: #0056b3;
+}

@@ -1,0 +1,153 @@
+.focus-page-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  min-height: 80vh;
+}
+
+/* --- HEADER --- */
+.focus-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.focus-header .icon-wrapper {
+  background: #e3f2fd;
+  color: #2196f3;
+  padding: 1rem;
+  border-radius: 16px;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(33, 150, 243, 0.15);
+}
+
+.focus-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.focus-header p {
+  margin: 0.5rem 0 0 0;
+  color: #666;
+  font-size: 1rem;
+}
+
+/* --- ESTADOS --- */
+.loading-state, .empty-state-focus {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #888;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  border: 2px dashed #eee;
+  margin-top: 2rem;
+}
+
+.loading-text { font-size: 1.1rem; font-weight: 500; }
+
+.empty-state-focus h3 { color: #444; margin-bottom: 0.5rem; }
+
+.btn-refresh {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.2s;
+}
+.btn-refresh:hover { background: #f0f0f0; transform: translateY(-1px); }
+
+/* --- GRID --- */
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* --- CARD --- */
+.focus-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.focus-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.06);
+  border-color: #bbdefb;
+}
+
+.focus-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 65%;
+}
+
+.focus-card h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.focus-badge {
+  align-self: flex-start;
+  background: #fff3e0;
+  color: #ef6c00;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-play-focus {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 10px rgba(33, 150, 243, 0.3);
+}
+
+.btn-play-focus:hover { background: #1976d2; transform: scale(1.05); }
+.btn-play-focus:active { transform: scale(0.98); }
+.play-icon { font-size: 0.9rem; }
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .focus-page-container { padding: 1.5rem; }
+  .focus-header { flex-direction: column; text-align: center; gap: 1rem; }
+  .focus-card { flex-direction: column; align-items: flex-start; gap: 1.2rem; }
+  .focus-card-content { max-width: 100%; width: 100%; }
+  .btn-play-focus { width: 100%; justify-content: center; padding: 1rem; }
+}

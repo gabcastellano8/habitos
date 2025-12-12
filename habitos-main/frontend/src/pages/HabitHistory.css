@@ -1,0 +1,159 @@
+/* src/pages/HabitHistory.css */
+
+/* REMOVIDO: .history-container
+  O .app-content (do Layout.css) agora é o container principal.
+*/
+
+/* O container agora é o próprio wrapper do calendário, 
+   para aplicar o fundo branco */
+.calendar-wrapper-container {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+/* Botão de Voltar */
+.back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #007bff;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.back-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Título (fica fora do wrapper do calendário) */
+.history-title {
+  margin: 0 0 2rem 0;
+  color: #222;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #f4f7f6;
+  padding-bottom: 1rem;
+}
+
+.history-title .habito-name {
+  color: #007bff;
+}
+
+/* Estados de Loading/Erro */
+.history-state {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1px solid #dee2e6;
+}
+.history-state.error {
+  color: #dc3545;
+}
+
+
+/* Wrapper do Calendário */
+/* .calendar-wrapper { ... } (Este seletor não é mais necessário) */
+
+/* Estilização Base do react-calendar */
+.habito-calendar {
+  width: 100%;
+  border: none; 
+  font-family: 'Inter', sans-serif;
+}
+
+.habito-calendar .react-calendar__navigation__label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.habito-calendar .react-calendar__navigation button {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.habito-calendar .react-calendar__month-view__weekdays__weekday {
+  text-align: center;
+  font-weight: 500;
+  color: #007bff;
+  text-decoration: none; 
+  padding: 0.5em;
+  font-size: 0.9rem;
+}
+
+.habito-calendar .react-calendar__tile {
+  height: 80px; 
+  border-radius: 6px;
+  border: 2px solid transparent;
+  transition: all 0.2s;
+  font-weight: 500;
+  color: #444;
+}
+
+.habito-calendar .react-calendar__tile--now {
+  background-color: #f8f9fa;
+  border-color: #dee2e6;
+}
+
+.habito-calendar .react-calendar__month-view__days__day:not(
+    .react-calendar__month-view__days__day--neighboringMonth
+  ):hover {
+  background-color: #f0f0f0;
+}
+
+/* Nossas classes da API */
+.habito-calendar .habito-feito {
+  background-color: #28a745;
+  color: white;
+}
+.habito-calendar .habito-feito:hover {
+  background-color: #218838;
+}
+
+.habito-calendar .habito-nao-feito {
+  background-color: #fbeae7;
+  color: #c82333;
+  border: 2px solid #dc3545;
+}
+.habito-calendar .habito-nao-feito:hover {
+  background-color: #f8d7da;
+}
+
+/* Legenda */
+.legend {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 1.5rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.legend-item .color-box {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+
+.legend-item .color-box.feito {
+  background-color: #28a745;
+}
+
+.legend-item .color-box.nao-feito {
+  background-color: #fbeae7;
+  border: 1px solid #dc3545;
+}
