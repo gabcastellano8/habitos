@@ -123,7 +123,7 @@ Implementação de Gamificação (sistema de níveis e XP).
 Sincronização em nuvem para uso offline (PWA).
 
 #  Postmortem (Lições Aprendidas e Desafios Técnicos)
-Durante o desenvolvimento, a equipe enfrentou e superou desafios técnicos significativos:
+Durante o desenvolvimento, houve desafios técnicos significativos:
 
 Manipulação de Timezones: Houve um desafio crítico na sincronização de datas entre o cliente e o servidor. A solução exigiu a normalização das datas para o formato ISO local (en-CA / YYYY-MM-DD), evitando que tarefas fossem salvas no dia incorreto devido a conversões automáticas para UTC.
 
