@@ -79,7 +79,7 @@ Execução: Entrar no "Modo Foco" para realizar uma tarefa de estudo/trabalho (u
 
 Análise: Acessar a aba "Estatísticas" após 3 dias para ver o Heatmap.
 
-3. Resultados Esperados
+## 3. Resultados Esperados
 Ao final do ciclo de validação, espera-se:
 
 SUS Score > 70: Indicando boa usabilidade.
