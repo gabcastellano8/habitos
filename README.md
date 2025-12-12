@@ -116,7 +116,14 @@ Perspectivas Futuras:
 
 Desenvolvimento da versão Mobile nativa (React Native) para habilitar notificações push.
 
-Implementação de Gamificação (sistema de níveis e XP).
+Expansão Social
+
+Objetivo Principal: Transformar o aplicativo de uma ferramenta solitária em uma plataforma comunitária, utilizando a validação social e a gamificação para aumentar drasticamente a retenção de usuários.
+
+Criação de grupos com metas coletivas (ex: "Clube da Leitura"), onde o progresso de um ajuda o time.
+
+Duelos entre amigos, competividade com tabelas de progresso, atualizações instantâneas e notificações de ultrapassagem.
+
 
 Sincronização em nuvem para uso offline (PWA).
 
