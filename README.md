@@ -84,8 +84,6 @@ Destaque de UX: Interface Otimista (Optimistic UI) Para melhorar a percepção d
 
 # Validação e Estratégia
 
-validação da solução será realizada através de testes de usabilidade:
-
 Método: Teste de uso contínuo por 2 semanas com grupo focal.
 
 Métrica: Aplicação do questionário SUS (System Usability Scale) ao final do período.
