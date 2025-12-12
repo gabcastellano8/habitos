@@ -82,8 +82,6 @@ Análise: Acessar a aba "Estatísticas" após 3 dias para ver o Heatmap.
 ## 3. Resultados Esperados
 Ao final do ciclo de validação, espera-se:
 
-SUS Score > 70: Indicando boa usabilidade.
-
 Aumento de Produtividade: Relatos de que o "Modo Foco" reduziu distrações externas.
 
-Estabilidade: Identificação e correção de bugs de borda (edge cases) não pegos nos testes unitários.
+Estabilidade: Identificação e correção de bugs de borda não pegos nos testes unitários.
