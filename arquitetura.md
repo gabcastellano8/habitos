@@ -1,4 +1,4 @@
-# 🎨 HabitSPA 
+#  HabitSPA 
 Arquitetura Front-end
 
 Este documento descreve a arquitetura, padrões de projeto e decisões técnicas adotadas no desenvolvimento do front-end do HabitSPA.
@@ -45,7 +45,7 @@ src/
 # Arquitetura do Backend
 O backend foi construído seguindo os princípios de Clean Architecture e Camadas (Layered Architecture), utilizando Node.js com TypeScript. A responsabilidade de cada componente é estritamente separada para garantir manutenibilidade e escalabilidade.
 
-🛠️ Tecnologias Principais
+ Tecnologias Principais
 Runtime: Node.js
 
 Linguagem: TypeScript
@@ -58,7 +58,7 @@ Banco de Dados: PostgreSQL (via Supabase)
 
 Autenticação: JWT (JSON Web Tokens)
 
-📐 Fluxo de Dados (Request Lifecycle)
+ Fluxo de Dados (Request Lifecycle)
 Todas as requisições seguem um fluxo unidirecional previsível:
 
  
@@ -77,7 +77,7 @@ Challenge (Desafios): Sistema de duelos entre usuários.
 
 Relação: Liga dois Usuarios (Challenger e Opponent) para competir em um hábito específico.
 
-🔒 Segurança e Autenticação
+ Segurança e Autenticação
 JWT (Bearer Token): Utilizado para proteger rotas privadas. O token é gerado no login e deve ser enviado no Header Authorization.
 
 Bcrypt: As senhas dos usuários são armazenadas apenas como hashes, nunca em texto plano.
